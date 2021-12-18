@@ -38,10 +38,9 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/auth-next',
+    '@nuxtjs/auth',
     'nuxt-buefy',
-    '@nuxtjs/dotenv',
-    ['cookie-universal-nuxt', { parseJSON: false }],
+    '@nuxtjs/dotenv'
   ],
   auth: {
     redirect: {
